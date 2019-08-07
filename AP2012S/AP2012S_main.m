@@ -335,3 +335,14 @@ title('GI protein')
 grid on
 legend('AP2012','AP2012S','Location','Best')
 
+%% Period calculation
+% Uncomment this when calculating period under different mutant condition
+% allPeriod = [];
+% for gn = [1:3 5:19 23:27]
+%     [pks,lcs] = findpeaks(ProteinLevel(100:end,gn));
+%     deltaPk = diff(lcs');
+%     allPeriod = [allPeriod mean(deltaPk)];   
+% end
+% allPeriod
+% allPeriod(isnan(allPeriod)) = [];
+% averagePeriod = mean(allPeriod)
