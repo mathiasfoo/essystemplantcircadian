@@ -75,5 +75,5 @@ dC(22) = theta(62)*C(21) - theta(63)*C(22) - theta(64)*C(16)*C(23)*C(22)  ;
 dC(23) = theta(65) - theta(66)*C(23) + theta(67)*EL;
 
 % % pZTL
-dC(24) = theta(68) - theta(69)*C(24) - theta(70)*C(22)*C(24); 
+dC(24) = theta(68) - theta(69)*C(24) - theta(70)*C(22)^(theta(71))*C(24)^(theta(72)); 
 
